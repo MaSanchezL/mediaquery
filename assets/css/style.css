@@ -5,7 +5,7 @@
 }
 
 .header {
-  width: 100%;
+  width:100%;
   background-color: #24547c;
   grid-area: encabezado;
   display: flex;
@@ -30,7 +30,7 @@
   margin-bottom: 5px;
 }
 .search-bar {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@
 }
 
 .footer {
-  /* width: 100%; */
+  width: 100%;
   background-color: #24547c;
   color: white;
   display: flex;
