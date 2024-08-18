@@ -23,6 +23,7 @@
   display: none;
 }
 .aside-info {
+  width: fit-content;
   display: flex;
   flex-direction: column;
 }
@@ -38,6 +39,8 @@
   background-color: #cdcdcd;
   color: black;
   grid-area: menu;
+}
+.search-title{
   padding: 2% 5% 2% 5%;
 }
 
@@ -125,11 +128,10 @@
   align-items: center;
   flex-direction: column;
   grid-area: pie;
-  padding: 2% 5% 2% 5%;
 }
 
 .footer span {
-  padding-top: 5%;
+  padding: 2% 5% 2% 5%;
 }
 .main-container {
   display: grid;
